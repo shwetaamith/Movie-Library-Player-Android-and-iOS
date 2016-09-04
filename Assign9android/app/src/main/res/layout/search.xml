@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdb2f5">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/searchMe"
+            android:hint="@string/entername" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search"
+            android:onClick="go"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:focusable="true"
+            android:background="#f5f0f0"
+            android:text="Search" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:minLines="2"
+        android:maxLines="4"
+        android:hint="@string/name"
+        android:textColor="#050000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rated"
+        android:minLines="2"
+        android:maxLines="4"
+        android:textColor="@color/black"
+        android:hint="@string/searchrated"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/released"
+        android:minLines="1"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:hint="@string/searchreleased"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/genre"
+        android:minLines="2"
+        android:maxLines="3"
+        android:textColor="@color/black"
+        android:hint="@string/genre"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plot"
+        android:minLines="3"
+        android:maxLines="6"
+        android:textColor="@color/black"
+        android:hint="@string/searchplot"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actors"
+        android:minLines="1"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:hint="@string/searchactors"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok"
+        android:textColor="@color/black"
+        android:text="OK" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="ADD"
+        android:textColor="@color/black"
+        android:onClick="add"/>
+</LinearLayout>

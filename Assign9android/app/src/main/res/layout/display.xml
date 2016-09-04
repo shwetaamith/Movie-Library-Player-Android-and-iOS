@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:background="#b69ef3">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/moviename"
+            android:id="@+id/textView1"
+            android:minLines="5"
+            android:maxLines="10"
+            android:inputType="textShortMessage"
+            android:editable="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:maxLines="10"
+            android:hint="@string/actorinfo"
+            android:id="@+id/textView2"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:maxLines="10"
+            android:hint="@string/plot"
+            android:id="@+id/textView3"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:maxLines="10"
+            android:hint="@string/genre"
+            android:id="@+id/textView4"
+            android:inputType="textShortMessage" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:maxLines="10"
+            android:hint="@string/released"
+            android:id="@+id/textView5"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rated"
+            android:id="@+id/textView6"
+            android:inputType="number" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alright"
+                android:id="@+id/button"
+                android:paddingRight= "23dp"
+                android:background="#f4eeb5"
+                android:onClick="fin"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:id="@+id/delete"
+                android:background="#db8858"
+                android:onClick="delete" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playme"
+                android:text="@string/play"
+                android:onClick="playMe"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

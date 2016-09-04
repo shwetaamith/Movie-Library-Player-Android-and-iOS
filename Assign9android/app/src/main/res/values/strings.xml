@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assign9test</string>
+    <string name="action_delete">delete</string>
+    <string name="action_addmovie">add</string>
+    <string name="moviename">movie name</string>
+    <string name="actor">actor</string>
+    <string name="plot">plot</string>
+    <string name="genre">genre</string>
+    <string name="released">released</string>
+    <string name="rated">rated</string>
+    <string name="year">year</string>
+    <string name="ok">ok</string>
+    <string name="play">Play</string>
+    <string name="urlprefix">http://10.0.2.2:8888/</string>
+    <string name="default_url">http://10.0.2.2:8080</string>
+    <string name="alright">ok</string>
+    <string name="delete">delete</string>
+    <string name="actorinfo">Actor</string>
+    <string name="entername">Enter name</string>
+    <string name="name">Search here</string>
+    <string name="searchrated">rated</string>
+    <string name="searchreleased">released</string>
+    <string name="searchplot">plot</string>
+    <string name="searchactors">actors</string>
+    <string name="search_server">Search server</string>
+    <string name="search">Search OMDB</string>
+</resources>
